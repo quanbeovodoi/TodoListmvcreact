@@ -6,7 +6,6 @@ const TodoList = (props) => {
   const [edittext, setEdittext] = useState(false);
   const [value, setValue] = useState("");
   const [checked, setcheckedAll] = useState(false);
-  const [className, setclassName] = useState(0);
   const {
     todos,
     onTodoClick,
